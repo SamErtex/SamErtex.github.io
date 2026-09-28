@@ -2,59 +2,69 @@
 Política de Privacidade
 
 ```text
-OPA Auto Atendimento v1.11
+# Política de Privacidade — OPA Auto Atendimento
 
-A extensão automatiza a ação "Assumir próximo da fila" no sistema IXCSoft.
+Última atualização: 28 de setembro de 2026
 
-Funcionamento:
-- AUTO OFF: não faz nada.
-- AUTO ON: verifica .item[data-id="atend_aguard"] .notif1 a cada 3 segundos.
-- Se o valor for maior que 0, encontra o botão nativo "Assumir próximo da fila"
-  e executa o clique nativo.
-- Depois de uma tentativa, AUTO volta para OFF.
-- O valor "Em andamento" não é utilizado.
-- O botão AUTO é inserido ao lado de "Assumir próximo da fila" quando o botão
-  nativo estiver disponível.
+A extensão OPA Auto Atendimento foi desenvolvida para auxiliar usuários do sistema de atendimento IXCSoft na automatização da ação de assumir um atendimento disponível na fila.
 
-PRIMEIRA INSTALAÇÃO:
+## 1. Dados acessados
 
-1. Baixe e extraia o arquivo ZIP da extensão.
-2. Abra o Google Chrome.
-3. Acesse:
-   chrome://extensions
-4. Ative o "Modo do desenvolvedor", no canto superior direito.
-5. Clique em "Carregar sem compactação".
-6. Selecione a pasta da extensão extraída.
-7. A extensão será adicionada ao Chrome.
-8. Abra ou recarregue a página do suporte IXCSoft.
-9. O botão AUTO aparecerá ao lado de "Assumir próximo da fila".
+A extensão pode acessar informações presentes na página do sistema IXCSoft enquanto o usuário estiver utilizando a extensão.
 
-IMPORTANTE:
-- Não é necessário remover uma versão anterior caso esta seja a primeira
-  instalação.
-- Se já existir uma versão anterior da OPA instalada, consulte o procedimento
-  de atualização abaixo.
+Essas informações são utilizadas exclusivamente para permitir o funcionamento da automação, incluindo:
 
-CONSOLE:
+* identificação da quantidade de atendimentos disponíveis na fila;
+* identificação do botão "Assumir próximo da fila";
+* interação com elementos da interface necessários para executar a ação solicitada pelo usuário.
 
-Ao carregar a extensão, podem aparecer mensagens como:
+A extensão não tem como finalidade coletar, armazenar ou analisar informações pessoais dos usuários do sistema.
 
-[OPA Auto v1.11] Carregado: ...
-[OPA Auto v1.11] Botão inserido ao lado de "Assumir próximo da fila".
+## 2. Armazenamento de dados
 
-ATUALIZAÇÃO DE UMA VERSÃO ANTERIOR:
+A extensão utiliza o armazenamento local do navegador (`chrome.storage.local`) para guardar configurações necessárias ao funcionamento da automação, como o estado ligado/desligado do recurso AUTO.
 
-1. Abra:
-   chrome://extensions
-2. Localize a extensão OPA Auto Atendimento.
-3. Remova a versão anterior.
-4. Extraia o ZIP da nova versão.
-5. Clique em "Carregar sem compactação".
-6. Selecione a pasta da nova versão.
-7. Recarregue a página do suporte IXCSoft.
+Essas informações permanecem no navegador do usuário e não são enviadas para servidores externos controlados pelo desenvolvedor da extensão.
 
-OBSERVAÇÃO:
+## 3. Compartilhamento de dados
 
-A extensão depende da estrutura atual da interface do IXCSoft.
-Alterações na página podem exigir uma nova versão da extensão.
+A extensão não vende, aluga ou compartilha dados do usuário com terceiros.
+
+Não são utilizados servidores próprios para coletar ou armazenar dados pessoais obtidos durante a utilização da extensão.
+
+## 4. Dados enviados a terceiros
+
+A extensão não envia dados coletados para serviços de análise, publicidade, rastreamento ou outros serviços externos.
+
+A extensão funciona diretamente no navegador do usuário e interage com o sistema IXCSoft para executar a funcionalidade para a qual foi desenvolvida.
+
+## 5. Uso das informações
+
+As informações acessadas pela extensão são utilizadas exclusivamente para fornecer a funcionalidade de automação de atendimento.
+
+A extensão não utiliza os dados acessados para:
+
+* publicidade personalizada;
+* criação de perfis de usuários;
+* rastreamento de navegação;
+* venda ou comercialização de informações;
+* análise comportamental;
+* identificação ou monitoramento do usuário fora da finalidade da extensão.
+
+## 6. Segurança
+
+A extensão foi desenvolvida para limitar o acesso aos dados ao necessário para seu funcionamento.
+
+Nenhum dado pessoal é armazenado em servidores próprios ou transmitido pelo desenvolvedor para terceiros.
+
+## 7. Alterações nesta política
+
+Esta Política de Privacidade poderá ser atualizada caso sejam adicionadas novas funcionalidades ou modificações que alterem a forma como a extensão acessa ou utiliza dados.
+
+Eventuais alterações serão publicadas nesta mesma página.
+
+## 8. Contato
+
+Para dúvidas, solicitações ou questões relacionadas à privacidade da extensão, entre em contato com o desenvolvedor responsável pela publicação da extensão.
+
 ```
