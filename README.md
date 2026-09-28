@@ -1,6 +1,5 @@
 # SamErtex.github.io
 Política de Privacidade
-Claro. Para uma primeira instalação, o README pode ficar assim:
 
 ```text
 OPA Auto Atendimento v1.11
